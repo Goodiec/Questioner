@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meetup</title>
+
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <h1><i>Questioner</i></h1>
+        <div>
+            <a href="userPage.html">Profile</a>
+            <a href="home.html">Explore</a>
+        </div>
+    </header>
+    <main id="meetupPage">
+       <div id="meetupPageHeader">
+          <h2>Friday, December 21st, 2018</h2>
+          <h2><strong>Meetup One</strong></h2>
+       </div>
+       <div class="col-12 gap">
+           <div class="first-col-6">
+                <h2><strong>Agenda</strong></h2>
+                <ul>
+                    <li>Activity 1</li>
+                    <li>Activity 2</li>
+                    <li>Activity 3</li>
+                    <li>Activity 4</li>
+                    <li>Activity 5</li>
+                    <li>Activity 6</li>
+                    <li>Activity 7</li>
+                    <li>Activity 8</li>
+                    <li>Activity 9</li>
+                    <li>Activity 10</li>
+                </ul>
+           </div>
+           <div class="second-col-6">
+               <div>
+                    <img src="images/clock.png" alt="image" id="clock_icon">
+                    <p>Friday, December 21st, 2018<br>
+                    11:00 AM to 1:00 PM</p>
+               </div>
+               <div class="marginBottom50"> 
+                    <img src="images/location.png" alt="image" id="location_icon">
+                    <p>Civiv Hub, First Avenue</p>
+               </div>
+               <div>
+                    <input type="text" name="question_field" placeholder="Ask A Question">
+                    <button type="submit">Post Question</button>
+               </div> 
+           </div>
+       </div>
+       <div class="col-12">
+            <div class="col-12-full">
+               
+                    <u><h2><strong><i>Top Questions Feed</i></strong></h2></u>
+                <div id="questFeed">
+                    <div>
+                        <div class="imagePlaceholder">
+                            <img  src="images/profile.png" alt="image">
+                        </div>
+                        <div>
+                            <h2><strong>User 1</strong></h2>
+                            <p>What is the.........?</p>
+                            <img src="images/up-arrow.png" class="upvote">Upvote
+                            <img src="images/down-arrow.png" class="downvote">Downvote
+                            
+                            <div class="commentDiv">
+                                <strong><i>Comments</i></strong>
+                                <p class="commentParagraph"></p>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <textarea placeholder="Add a comment" class="commentTextarea"></textarea>
+                            <button type="submit" class="commentBtn">Comment</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="imagePlaceholder">
+                            <img  src="images/profile.png" alt="image">
+                        </div>
+                        <div>
+                            <h2><strong>User 2</strong></h2>
+                            <p>What is the.........?</p>
+                            <img src="images/up-arrow.png" class="upvote">Upvote
+                            <img src="images/down-arrow.png" class="downvote">Downvote
+
+                            <div class="commentDiv">
+                                <strong><i>Comments</i></strong>
+                                <p class="commentParagraph"></p>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <textarea placeholder="Add a comment" class="commentTextarea"></textarea>
+                            <button type="submit" class="commentBtn">Comment</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+       </div>
+    </main>
+
+    <footer class="text-center">
+        <p>Copyright &copy; 2018 Questioner</p>
+    </footer>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
