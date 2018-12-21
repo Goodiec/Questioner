@@ -1,0 +1,319 @@
+/*General*/
+body{
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+form {width: 100%;}
+input {width: 100%;}
+.text-center{
+    text-align: center;
+}
+.container{
+    width: 100%;
+}
+.row{
+    width: 100%;
+}
+header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 20px;
+    overflow: hidden;
+}
+header a{
+    text-decoration: none;
+    background-color: rgba(48,199,110,1);
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+footer{
+    overflow: hidden;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 20px;
+}
+.col-12{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+}
+.col-8{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column:4/13;
+}
+.col-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column:1/4;
+}
+.col-4-4{
+    grid-column:1/4;
+}
+.first-col-8-4{
+    grid-column: 1/5;
+}
+.sec-col-8-4{
+    grid-column: 5/9;
+}
+
+input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 34px;
+}
+.loginBoxGrid button{
+    background-color:rgba(48,199,110,1);
+    color: #ffffff;
+    padding: 16px 20px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+}
+.signupFormGrid button{
+    background-color:rgba(48,199,110,1);
+    color: #ffffff;
+    padding: 16px 20px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+}
+ button{
+    background-color:#000000;;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+}
+
+
+/*Margins*/
+.marginTop50{
+    margin-top: 50px;
+}
+.marginBottom50{
+    margin-bottom: 50px;
+}
+
+.marginBottom20{
+    margin-bottom: 20px;
+}
+
+
+/*Log in Styles*/
+.loginMain main{
+    background-color:rgba(0,0,0,0.5);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.loginBoxGrid{
+    grid-column-start: 8;
+    grid-column-end: 12;
+    box-shadow: 0 2px 4px 0 rgba(181,181,181,0.8);
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+/*Sign Up Styles*/
+.signupFormGrid{
+    grid-column-start: 4;
+    grid-column-end: 10;
+}
+
+@media only screen and (max-width:768px){
+    .loginBoxGrid, .signupFormGrid{
+        grid-column-start: 2;
+        grid-column-end: 12;
+    }
+}
+@media only screen and (min-width:768px){
+    .loginBoxGrid{
+        grid-column-start: 7;
+        grid-column-end: 12;
+    }
+}
+
+.profile{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    background-color:#f9f9fa;
+    padding: 20px;
+}
+.first-col-6{
+    grid-column: 1/7;
+}
+.second-col-6{
+    grid-column:7/13
+}
+.first-col-3{
+    grid-column:1/4;
+}
+.second-col-3{
+    grid-column:4/7;
+}
+.third-col-3{
+    grid-column:7/10;
+}
+.fourth-col-3{
+    grid-column:10/13;
+}
+.gap{
+    grid-gap:30px;
+}
+.homeGroups{
+    padding:20px;
+}
+.homeGp{
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #f9f9fa;
+    box-shadow: 0 2px 2px 4px #eeeeee;
+    cursor: pointer;
+}
+
+.homeGp a{
+    text-decoration: none;
+}
+.homeGp a:hover{
+    color: red;
+}
+
+
+.homeMeetup{
+    background-color: #ffffff;
+    border: 2px solid #f9f9fa;
+    padding: 3px;
+    box-shadow: 0 2px 2px 4px #eeeeee;
+    cursor: pointer;
+}
+
+.homemeetup a{
+    text-decoration: none;
+}
+
+.board{
+    background-color: #f9f9fa;
+    box-shadow: 2px 0 2px 0 rgba(181,181,181,0.8);
+    padding: 50px;
+    margin: 50px 0;
+}
+textarea{
+    width: 100%;
+}
+.groupForm{
+    grid-column: 2/11;
+}
+.editBtn{
+    color: blue;
+    cursor: pointer;
+}
+.home{
+    background-color: #f8f8f8;
+}
+
+.groupBoardLinks{
+    padding:5px;
+    font-weight: 1000;
+}
+#meetupPage{
+    background: #f9f9fa;
+    margin: 50px;
+    padding: 40px;
+}
+.meetupHeader{
+    padding: 50px;
+    background: #8b1d1c;
+}
+.roww{
+    display: grid;
+    grid-rows:auto;
+}
+#meetupPage .meetupCalendar{
+    margin-right: 20px;
+    float: left;
+}
+.meetupLayout{
+    display: flex;
+}
+.meetupLayout button{
+    padding: 5px;
+    background: #000080;
+    font-size: 14px;
+}
+.meetupLayout a{
+    text-decoration: none;
+}
+.meetupLayout h1 a:hover{
+    color:#8b1d1c;
+}
+#clock_icon{
+    float: left;
+    margin-right: 10px;
+
+}
+#location_icon{
+    float: left;
+    margin-right: 10px;
+
+}
+#meetupPageHeader{
+    background: #8b1d1c;
+    padding: 20px;
+    color:#ffffff;
+}
+.col-12-12{
+    grid-column-start: 1;
+    grid-column-end: 12;
+}
+.col-12-full{
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+#questFeed{
+    background: #ffffff;
+}
+.imagePlaceholder{
+    float: left;
+    border-radius: 100%;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-right: 20px;
+}
+#commentBtn{
+    background: #8b1d1c;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.comment{
+    background: grey;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+#homeImg{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.commentDiv{
+    background:#f9f9fa;
+    border-radius: 4px;
+    padding: 5px;
+}
+#bioTextareaDiv{
+    display: none;
+}
+#interestsTextareaDiv{
+    display: none;
+}
