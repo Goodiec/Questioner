@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <header>
+            <h1><i>Questioner</i></h1>
+            <a href="login.html">Log Out</a>
+    </header>
+    <main>
+       <div class="col-12-full">
+            <div class="profile">
+                <div class="col-12 gap">
+                    <div class="first-col-6">
+                        <h1>UserName</h1><hr>
+                        <div>
+                            <h4><strong>Location</strong></h4>
+                            <p class="location">Here</p>
+                                        
+                            <h4><strong>Bio</strong></h4>
+                            <div id="bio">
+                                <p id="bioParagraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam consequatur pariatur dolor, vero tempore dolorum quisquam. Perspiciatis odio culpa ex illo, temporibus delectus, a, quas eaque vitae excepturi consectetur quis.</p>
+                                <a id="editBio" class="editBtn"><u>Edit</u></a>
+                            </div>
+                            <div id="bioTextareaDiv">
+                                <textarea id="bioTextarea" rows="6" cols="50"></textarea>
+                                <button id="bioSaveBtn">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-col-6">
+                        <h3>Profile Photo</h3>
+                        <img src="images/user.png">
+                        <input type="file" name="pic" accept="image/*" width="64px" height="64px"><hr>
+                        <div> 
+                            <p>Action</p>  
+                            <h4><strong>Interests</strong></h4>
+                            <div id="interests">
+                                <p id="interestsParagraph">Blah Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam consequatur eius libero earum quae, cum suscipit corporis quis nam doloribus at, magni optio in, commodi facilis. Repellendus illum quis voluptatem.</p>
+                                <a id="editInterests" class="editBtn"><u>Edit</u></a>
+                            </div>
+                            <div id="interestsTextareaDiv">
+                                <textarea id="interestsTextarea" rows="6" cols="50"></textarea>
+                                <button id="interestsSaveBtn">Save</button>
+                            </div>
+                        </div> 
+                    </div>  
+                </div>
+                <div class="col-12 gap">
+                    <div class="first-col-6">
+                        <h1>Activity</h1><hr>
+                        <div>
+                            <h3>Number of Questions Posted:</h3>
+                            <p class="numUserQuestion">No question asked yet</p>
+                        </div>
+                        <div>
+                            <h3>Number of Questions Commented On:</h3>
+                            <p class="numUserQuestion">No comments made yet</p>
+                        </div>
+
+                    </div>
+                    <div class="first-col-6">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+       </div>
+    </main>
+
+    <footer class="text-center">
+        <p>Copyright &copy; 2018 Questioner</p>
+    </footer>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
